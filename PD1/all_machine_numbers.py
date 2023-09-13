@@ -1,4 +1,4 @@
-def print_all_machine_numbers_base2(beta, t, L, U):
+def print_all_machine_numbers(beta, t, L, U):
     """
     t: dígitos significativos
     L: mínimo exponente
@@ -30,5 +30,5 @@ print(total_machine_numbers(beta, t, L, U))
 print()
 
 print("Todos los números máquina: ")
-print_all_machine_numbers_base2(beta, t, L, U)
+print_all_machine_numbers(beta, t, L, U)
 print()
