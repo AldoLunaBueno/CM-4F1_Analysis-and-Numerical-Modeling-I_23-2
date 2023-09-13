@@ -15,13 +15,19 @@ def print_all_machine_numbers(beta, t, L, U):
             print(repr_str)
 
 def total_machine_numbers(beta, t, L, U):
-    return 2 * (beta - 1) * beta**(t-1) * (U - L + 1)
+    return 2 * (beta - 1) * beta**(t-1) * (U - L + 1) + 1
+
+def machine_number_bounds(beta, t, L, U):
+    x_min = beta**(L-1)
+    x_max = beta**(U) * (1-beta**(-t))
+    return f"[{-x_max}, {-x_min}] U {{0}} U [{x_min}, {x_max}]"
 
 beta = 2
 t = 3
 L = -2
 U = 2
-print("Conjunhto de números máquina:")
+
+print("Conjunto de números máquina:")
 print(f"F({beta}, {t}, {L}, {U})")
 print()
 
@@ -29,6 +35,10 @@ print("Total de números máquina: ")
 print(total_machine_numbers(beta, t, L, U))
 print()
 
-print("Todos los números máquina: ")
+print("Expresión del conjunto de números máquina: ")
+print(machine_number_bounds(beta, t, L, U))
+print()
+
+print("Todos los números máquina positivos: ")
 print_all_machine_numbers(beta, t, L, U)
 print()

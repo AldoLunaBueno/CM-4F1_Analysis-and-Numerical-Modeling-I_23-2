@@ -2,9 +2,9 @@ Conjunhto de números máquina:
 F(2, 3, -2, 2)
 
 Total de números máquina:
-40
+41
 
-Todos los números máquina:
+Todos los números máquina positivos:
 0.100 x 2^-2
 0.101 x 2^-2
 0.110 x 2^-2
