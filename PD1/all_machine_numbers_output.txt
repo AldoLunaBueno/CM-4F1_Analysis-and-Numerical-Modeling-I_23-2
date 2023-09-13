@@ -1,8 +1,11 @@
-Conjunhto de números máquina:
+Conjunto de números máquina:
 F(2, 3, -2, 2)
 
 Total de números máquina:
 41
+
+Expresión del conjunto de números máquina:
+[-3.5, -0.125] U {0} U [0.125, 3.5]
 
 Todos los números máquina positivos:
 0.100 x 2^-2
@@ -14,7 +17,6 @@ Todos los números máquina positivos:
 0.110 x 2^-1
 0.111 x 2^-1
 0.100 x 2^0
-0.101 x 2^0
 0.110 x 2^0
 0.111 x 2^0
 0.100 x 2^1
@@ -25,4 +27,3 @@ Todos los números máquina positivos:
 0.101 x 2^2
 0.110 x 2^2
 0.111 x 2^2
-
