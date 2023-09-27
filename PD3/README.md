@@ -29,8 +29,7 @@ $$
 a\\\
 b\\\
 c
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 -4\\\
 -50\\\
