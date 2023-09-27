@@ -16,7 +16,9 @@ $$
 -1 & 7 & 1\\
 5 & 7 & 1
 \end{pmatrix}
+$$
 .
+$$
 \begin{pmatrix}
 a\\
 b\\
