@@ -4,10 +4,12 @@ _The circle given by the equation $x^2 + y^2 + ax + by +c = 0$ passes through th
 
 Modelemos el problema. Reemplazamos los puntos en la ecuación del círculo para obtener las 3 ecuaciones que nos permitan calcular a, b y c.
 
+$$
 \begin{align*} 
 2x - 5y &=  8 \\ 
 3x + 9y &=  -12
 \end{align*}
+$$
 
 $$ -2a + c = -4 $$
 
