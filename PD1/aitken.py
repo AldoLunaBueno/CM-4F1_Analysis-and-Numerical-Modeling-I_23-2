@@ -3,7 +3,7 @@
 
 from itertools import accumulate
 import numpy as np
-
+from numpy import cos, sin, exp
 
 def second_differences(xs, *, direction):
     """
@@ -42,6 +42,9 @@ def accelerate(xs, **kwargs):
     return xs - strength * correction
 
 
-iterates = list(accumulate(range(5), lambda x, _: 0.5 * (x + 2 / x), initial=1))
+f = lambda x, _: 0.5 * (x + 2 / x)
+f = lambda x, _: 
+
+iterates = list(accumulate(range(5), f, initial=1))
 acc = accelerate(iterates)
 print(acc)
