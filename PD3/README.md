@@ -24,11 +24,13 @@ $$
 -1 & 7 & 1\\\
 5 & 7 & 1
 \end{pmatrix}
+\cdot
 \begin{pmatrix}
 a\\\
 b\\\
 c
 \end{pmatrix}
+=
 \begin{pmatrix}
 -4\\\
 -50\\\
