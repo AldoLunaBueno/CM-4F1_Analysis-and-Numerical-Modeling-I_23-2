@@ -16,6 +16,14 @@ $$
 -1 & 7 & 1\\\
 5 & 7 & 1
 \end{pmatrix}
+$$
+
+$$
+\begin{pmatrix}
+-2 & 0 & 1\\\
+-1 & 7 & 1\\\
+5 & 7 & 1
+\end{pmatrix}
 .
 \begin{pmatrix}
 a\\\
