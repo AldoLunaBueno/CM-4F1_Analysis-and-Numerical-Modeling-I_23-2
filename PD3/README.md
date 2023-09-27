@@ -12,22 +12,20 @@ Y construimos el sistema lineal $Ax=b$ correspondiente:
 
 $$
 \begin{pmatrix}
--2 & 0 & 1\\
--1 & 7 & 1\\
+-2 & 0 & 1\\\
+-1 & 7 & 1\\\
 5 & 7 & 1
 \end{pmatrix}
-$$
 .
-$$
 \begin{pmatrix}
-a\\
-b\\
+a\\\
+b\\\
 c
 \end{pmatrix}
 = 
 \begin{pmatrix}
--4\\
--50\\
+-4\\\
+-50\\\
 -26
 \end{pmatrix}
 $$
