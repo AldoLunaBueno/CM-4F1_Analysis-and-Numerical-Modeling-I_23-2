@@ -8,7 +8,7 @@ $$ -2a + c = -4 $$
 $$ -a + 7b + c = -50 $$
 $$ 5a + 7b + c = -26 $$
 
-Y construimos el sistema lineal correspondiente:
+Y construimos el sistema lineal $Ax=b$ correspondiente:
 
 $$
 \begin{pmatrix}
