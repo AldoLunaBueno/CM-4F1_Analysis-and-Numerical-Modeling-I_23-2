@@ -6,16 +6,11 @@ Modelemos el problema. Reemplazamos los puntos en la ecuación del círculo para
 
 $$
 \begin{align*} 
-2x - 5y &=  8 \\ 
-3x + 9y &=  -12
+-2a + c &= -4 \\ 
+-a + 7b + c &= -50 \\
+5a + 7b + c &= -26
 \end{align*}
 $$
-
-$$ -2a + c = -4 $$
-
-$$ -a + 7b + c = -50 $$
-
-$$ 5a + 7b + c = -26 $$
 
 Y construimos el sistema lineal $Ax=b$ correspondiente:
 
@@ -27,14 +22,12 @@ $$
 5 & 7 & 1
 \end{pmatrix}
 \cdot
-
 % x
 \begin{pmatrix}
 a\\\
 b\\\
 c
 \end{pmatrix} =
-
 % b
 \begin{pmatrix}
 -4\\\
