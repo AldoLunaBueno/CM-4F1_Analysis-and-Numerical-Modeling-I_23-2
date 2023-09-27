@@ -4,10 +4,6 @@ _The circle given by the equation $x^2 + y^2 + ax + by +c = 0$ passes through th
 
 Modelemos el problema. Reemplazamos los puntos en la ecuación del círculo para obtener las 3 ecuaciones que nos permitan calcular a, b y c.
 
-(-2,0)
-(-1,7)
-(5,-1)
-
 $$ -2a + c = -4 $$
 $$ -a + 7b + c = -50 $$
 $$ 5a + 7b + c = -26 $$
