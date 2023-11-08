@@ -16,12 +16,7 @@ def limpiadorv(vec, n):
 
 
 def mayor(lista):
-    sig = np.sign(lista[0])
-    max = abs(lista[0])
-    for x in lista:
-        if abs(x) > max:
-            max = x
-    return max
+    return max(lista, key=abs)
 
 
 def crear_elemtal(n, k):
@@ -45,8 +40,8 @@ def parlet_raid(A):
     for i in range(0, n - 2):
         print("\nPaso ", i+1)
         b = np.zeros(n)
-        for j in range(i, n - 1):
-            b[1 + j] = A[j + 1][i]
+        for j in range(i, n-1):
+            b[j + 1] = A[j + 1][i]
 
         max = mayor(b)
         posimax = np.where(b == max)
@@ -79,13 +74,16 @@ def parlet_raid(A):
 
 A = np.array(
     [
-        [1, 2, 4],
-        [2, 3, 4],
-        [4, 4, 1],
+        [1, 1, 1, 1],
+        [8, 4, 2, 1],
+        [3, 2, 1, 0],
+        [12, 2, 0, 0]
     ],
     dtype=np.float64,
 )
-b = np.array([35, 42, 34])
+b = np.array([2, 6, 5, -6])
+
+
 
 P, L, T = parlet_raid(A)
 
